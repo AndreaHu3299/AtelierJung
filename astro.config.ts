@@ -17,6 +17,8 @@ import { lazyImagesRehypePlugin, readingTimeRemarkPlugin, responsiveTablesRehype
 
 import preact from '@astrojs/preact';
 
+import relativeLinks from 'astro-relative-links';
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const hasExternalScripts = false;
@@ -70,6 +72,7 @@ export default defineConfig({
       config: './src/config.yaml',
     }),
     preact(),
+    relativeLinks(),
   ],
 
   image: {
