@@ -25,8 +25,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   output: 'static',
-  site: 'https://andreahu3299.github.io',
-  base: '/AtelierJung',
+  site: 'https://andreahu3299.github.io/AterlierJung',
 
   integrations: [
     tailwind({
@@ -83,7 +82,6 @@ export default defineConfig({
   },
 
   vite: {
-    base: '/AtelierJung/',
     resolve: {
       alias: {
         '~': path.resolve(__dirname, './src'),
