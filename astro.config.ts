@@ -83,6 +83,7 @@ export default defineConfig({
   },
 
   vite: {
+    base: '/AtelierJung/',
     resolve: {
       alias: {
         '~': path.resolve(__dirname, './src'),
