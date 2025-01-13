@@ -25,7 +25,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   output: 'static',
-  site: 'https://andreahu3299.github.io/AtelierJung',
+  site: 'https://andreahu3299.github.io',
   base: '/AtelierJung',
 
   integrations: [
